@@ -42,9 +42,6 @@ const Navbar = (props) => {
           <i className="fas fa-tasks" />
           Task System
         </h1>
-        <p>
-          Made with <span>❤</span>
-        </p>
       </div>
       <ul>{userAuth ? userLinks : authLinks}</ul>
     </div>
